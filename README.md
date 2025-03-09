@@ -1,15 +1,5 @@
-# lll_backend_bun
+# Life Long Learn Backend System
 
-To install dependencies:
+Create A .env File in Project Folder And Set Port Number
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+run via bun dev or bun start
