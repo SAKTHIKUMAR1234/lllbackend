@@ -1,0 +1,25 @@
+{
+  "name": "lll_backend_bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev" : "bun --watch src/app",
+    "start" : "bun src/app"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}
